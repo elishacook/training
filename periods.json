@@ -1,0 +1,111 @@
+{
+	"base": {
+		"run": {
+			"distance": {
+				"long": {
+					"change": 0.4
+				},
+				"short": {
+					"change": 0.0
+				}
+			},
+			"intensity": {
+				"low": {
+					"pace": "talking"
+				},
+				"high": {
+					"intervals": [
+						{
+							"pace": "talking",
+							"distance": 0.9,
+							"repetitions": 1
+						},
+						{
+							"pace": "sprint",
+							"distance": 0.1,
+							"repetitions": 10
+						}
+					]
+				}
+			}
+		},
+		"lift": {
+			"sets": 5,
+			"reps": 8,
+			"intensity": 0.75,
+			"rest": 60
+		}
+	},
+	
+	"build": {
+		"run": {
+			"distance": {
+				"long": {
+					"change": 1.0
+				},
+				"short": {
+					"change": 0.6
+				}
+			},
+			"intensity": {
+				"low": {
+					"pace": "talking"
+				},
+				"high": {
+					"intervals": [
+						{
+							"pace": "tempo",
+							"distance": 1.0,
+							"repetitions": 5
+						}
+					]
+				}
+			}
+		},
+		"lift": {
+			"sets": 3,
+			"reps": 6,
+			"intensity": 0.85,
+			"rest": 90
+		}
+	},
+	
+	"peak": {
+		"run": {
+			"distance": {
+				"long": {
+					"change": 0.8
+				},
+				"short": {
+					"change": 0.6
+				}
+			},
+			"intensity": {
+				"low": {
+					"intervals": [
+						{
+							"pace": "tempo",
+							"distance": 1.0,
+							"repetitions": 4
+						}
+					]
+				},
+				"high": {
+					"intervals": [
+						{
+							"pace": "sprint",
+							"distance": 1.0,
+							"repetitions": 8
+						}
+					]
+				}
+			}
+		},
+		"lift": {
+			"sets": 3,
+			"reps": 5,
+			"intensity": 0.6,
+			"rest": 20
+		}
+	}
+}

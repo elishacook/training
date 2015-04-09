@@ -1,0 +1,41 @@
+{
+	"Monday": {
+		"activity": "rest"
+	},
+	"Tuesday": {
+		"activity": "run",
+		"intensity": "high",
+		"duration": "short"
+	},
+	"Wednesday": {
+		"activity": "lift",
+		"exercises": [
+			"Squat",
+			"Standing Press",
+			"Deadlift",
+			"Prowler"
+		]
+	},
+	"Thursday": {
+		"activity": "rest"
+	},
+	"Friday": {
+		"activity": "lift",
+		"exercises": [
+			"Squat",
+			"Bench Press",
+			"Power Clean",
+			"Prowler"
+		]
+	},
+	"Saturday": {
+		"activity": "run",
+		"intensity": "low",
+		"duration": "short"
+	},
+	"Sunday": {
+		"activity": "run",
+		"intensity": "low",
+		"duration": "long"
+	}
+}

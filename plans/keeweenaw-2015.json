@@ -1,0 +1,32 @@
+{
+	"units": {
+		"distance": "miles",
+		"weight": "pounds"
+	},
+	
+	"type": "race",
+	"distance": "15",
+	"start_date": "2015-4-13",
+	"end_date": "2015-7-11",
+	
+	"start": {
+		"run": {
+			"short": 3.25,
+			"long": 7.25
+		},
+		"lift": {
+			"Squat": 265,
+			"Standing Press": 115,
+			"Deadlift": 300,
+			"Bench Press": 185,
+			"Power Clean": 165,
+			"Prowler": 50
+		}
+	},
+	
+	"periods": {
+		"base": 0.5,
+		"build": 0.32,
+		"peak": 0.18
+	}
+}

@@ -1,0 +1,1 @@
+This is how I create training plans. It's mostly here so I don't lose it.
